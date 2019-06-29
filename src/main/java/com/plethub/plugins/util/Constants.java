@@ -1,4 +1,4 @@
-package com.plethub.plugins.Utils;
+package com.plethub.plugins.util;
 
 
 /**
@@ -62,5 +62,6 @@ public class Constants {
     public static final String PAYSTACK_PAGES_CHECK_AVAILABILITY = BASE_API_ENDPOINT + "/page/check_slug_availability/";
 
     //URL definitions for invoices
+
 
 }
