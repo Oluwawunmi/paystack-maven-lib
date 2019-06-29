@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ca5ac3-f4ca-4055-baaa-ab6e9a12cf4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/Authorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/CheckAuthorization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/CheckAuthorizationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/CheckAuthorizationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/PaymentData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/PaystackCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/PaystackResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/VerificationResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/Utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/Constants.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,26 +25,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="290" />
-          <entry key="txt" value="24" />
+          <entry key="java" value="563" />
+          <entry key="txt" value="70" />
           <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="290" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="JAVA" value="563" />
+          <entry key="PLAIN_TEXT" value="71" />
           <entry key="XML" value="22" />
         </counts>
       </usages-collector>
@@ -70,18 +61,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="337">
+              <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/CheckAuthorizationData.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,11 +100,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/PaymentData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/ApiClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +140,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/plethub/plugins/Utils/Constants.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/PaymentData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/ApiClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/Constants.java" />
       </list>
     </option>
   </component>
@@ -177,7 +177,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="808" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -247,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561778935952" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561779885631" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -283,7 +283,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561775209915</updated>
       <workItem from="1561775215518" duration="2487000" />
-      <workItem from="1561778193059" duration="540000" />
+      <workItem from="1561778193059" duration="1495000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up API constants">
       <created>1561777536349</created>
@@ -292,11 +292,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561777536349</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating Api Client For secret and public Key">
+      <created>1561778975045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561778975045</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3027000" />
+    <option name="totallyTimeSpent" value="3982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -341,18 +348,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up API constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up API constants" />
+    <MESSAGE value="Creating Api Client For secret and public Key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Api Client For secret and public Key" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/MyMojo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/model.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="34" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/model/CheckAuthorizationData.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -385,6 +386,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/ApiClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/plethub/plugins/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
         </state>
       </provider>
     </entry>
